@@ -1,0 +1,29 @@
+# ----------------------------------------------------------------------
+# AXCORA SECURITY HTACCESS EXAMPLE
+# Protection for sensitive folders (vendor, system, config, db)
+# ----------------------------------------------------------------------
+
+# 1. Deny access to all files in this folder from public browser
+Order Deny,Allow
+Deny from all
+
+# 2. Prevent directory browsing (don't show file list)
+Options -Indexes
+
+# 3. Double Layer: Prevent execution of any scripts
+<FilesMatch "\.(php|php5|phtml|pl|py|jsp|asp|sh|cgi)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# 4. Security Hardening: Limit Request Methods
+<LimitExcept GET POST HEAD>
+    Order Allow,Deny
+    Deny from all
+</LimitExcept>
+
+# 5. Prevent sensitive file access (Extra protection)
+<FilesMatch "^(composer\.json|composer\.lock|package\.json|package-lock\.json)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
