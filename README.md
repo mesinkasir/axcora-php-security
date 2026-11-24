@@ -4,6 +4,8 @@
 and terminal-based security auditor designed specifically for PHP developers. 
 It helps you identify critical security gaps and suspicious code patterns before they can be exploited by hackers.
 
+Explore all projects: https://www.hockeycomputindo.com
+
 ---
 
 ## ✨ Key Features
@@ -108,3 +110,15 @@ We provide innovative solutions for FinTech, Automation, and Web Security.
 
 * **Website:** [https://www.axcora.com](https://www.axcora.com)
 * **Axcora Lab:** [https://axcora.my.id](https://axcora.my.id)
+
+---
+
+## Support Us
+
+GitHub: https://github.com/sponsors/mesinkasir
+
+PayPal: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN
+
+Gumroad: https://creativitaz.gumroad.com/coffee
+
+Explore all projects: https://www.hockeycomputindo.com
